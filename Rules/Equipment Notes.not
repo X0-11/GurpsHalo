@@ -1,0 +1,17 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "nFt7sooLTjXGeUYC4",
+			"text": "##### Plasma Pistol Firemodes\nFiring the Overcharged attack requires two previous consecutive of attack actions with this weapon, but forgoing any actual attack.\\\nOvercharged attack costs 4 ammo.\\\nAfter firing an Overcharge attack, the weapon cannot be used for three seconds as it cools back down."
+		},
+		{
+			"id": "ntSPEhsLzN0G9lidS",
+			"text": "##### Overheat (x)\nWhen firing a weapon with this property, track the number of shots fired consecutively.\\\nIf x shots are fired, the weapon overheats and becomes unusable for 2 seconds.\\\nThe user also takes d6 Burn damage to the limb holding the weapon.\\\nYou may not fire more shots than your remaining overheat capacity allows.\\\nEg. Overheat (11), Fires six shots turn one. May only fire 5 shot turn 2, even if listed weapon rof is higher."
+		},
+		{
+			"id": "n1-3wTKk0ElWPghmg",
+			"text": "Weapon Design Notes:\nUse Blaster weapon type ranges.\nBlaster style damage.\nDamage Divisor between blaster/particle beam stats\nConventional style bulk, leaning on the higher ends of a weapon range\nPlasma style ST requirements\n\nTL9 Reflex Tactical Vests w/ Inserts has 52 DR vs all, 63 vs cut/pierce.\n\nSpartan Armour will be a custom TL9 Powered Combat Armour with superscience shield. 70DR torso 50DR rest\n\nConverting from Mythic weapon firerates follows these rules: (Only do this if another fire rate isn't avail)\\\nFull Auto stat: x 100\\\nSemi Auto stat: Rounds x 120 / 130\\\nBurst Fire: 1xRounds(like shotguns)\\\nPump: See semi-auto, but mythic stats might be a bit slower due to factoring in pump speed\n\nWeapon range is difficult.\\\nCurrently using the following:\\\nTriple max listed in mythic for half-dam range.\\\nThen, triple again for maximum mechanical range."
+		}
+	]
+}

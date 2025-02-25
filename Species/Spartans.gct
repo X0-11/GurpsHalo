@@ -1,0 +1,1846 @@
+{
+	"version": 5,
+	"id": "BdpBpKe77ygeVvA4t",
+	"traits": [
+		{
+			"id": "T9aOWDMWxPDPYIaW2",
+			"name": "Spartan Racial Traits",
+			"children": [
+				{
+					"id": "Tq8kdL8hQ_ExxKv_-",
+					"name": "Spartan Program (Pick One)",
+					"children": [
+						{
+							"id": "TBPVKn0r4roQqvX2q",
+							"name": "Spartan I (Orion)",
+							"disabled": true,
+							"children": [
+								{
+									"id": "T9OgPJphG0PyOc2FA",
+									"name": "Positive",
+									"children": [
+										{
+											"id": "td_6gXqN8fFU5QjK9",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "teRggYn926_I1YeWO"
+											},
+											"name": "High Pain Threshold",
+											"reference": "B59",
+											"notes": "Never suffer shock penalties when injured",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 10,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "on all HT rolls to avoid knockdown and stunning",
+													"amount": 3
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to resist torture",
+													"amount": 3
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tcPPXDzj0V4zfsA3f",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tqha9GlDBU9P-Wg-6"
+											},
+											"name": "Increased Strength",
+											"reference": "B14",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mdEEbVzvBnr28G5NI",
+													"name": "No Fine Manipulators",
+													"reference": "B15",
+													"cost": -40,
+													"disabled": true
+												},
+												{
+													"id": "m-qef-UIB8F8jF6Cp",
+													"name": "Size",
+													"reference": "B15",
+													"cost": -10,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mfUYsN747YvUoycCX",
+													"name": "Super-Effort",
+													"reference": "SU24",
+													"cost": 300,
+													"disabled": true
+												}
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "st",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tG1w8TsZaaVgI0xEf",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tVt3SvdGWNchJ8z4o"
+											},
+											"name": "Increased Health",
+											"reference": "B14",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "ht",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "TMH9Bas9UwFbcVOQS",
+									"name": "Negative",
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "TtF4-raC_McQm6r1b",
+							"name": "Spartan II",
+							"disabled": true,
+							"children": [
+								{
+									"id": "TTfeTTLud1i2SEY0M",
+									"name": "Positive",
+									"children": [
+										{
+											"id": "trmr7eFpMK8mStanw",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "teRggYn926_I1YeWO"
+											},
+											"name": "High Pain Threshold",
+											"reference": "B59",
+											"notes": "Never suffer shock penalties when injured",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 10,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "on all HT rolls to avoid knockdown and stunning",
+													"amount": 3
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to resist torture",
+													"amount": 3
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tjtEt899u1Werrj_H",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tqha9GlDBU9P-Wg-6"
+											},
+											"name": "Increased Strength",
+											"reference": "B14",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mtn7wtEm2kf_gH35P",
+													"name": "No Fine Manipulators",
+													"reference": "B15",
+													"cost": -40,
+													"disabled": true
+												},
+												{
+													"id": "mcHcNdH_MDFaHGiGD",
+													"name": "Size",
+													"reference": "B15",
+													"cost": -10,
+													"levels": 1
+												},
+												{
+													"id": "m8Y6bM0o6bQ-2Psiu",
+													"name": "Super-Effort",
+													"reference": "SU24",
+													"cost": 300,
+													"disabled": true
+												}
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "st",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 3,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "txAVBEgQFU5qBRjan",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tGWOSEE6SmBHACE6Y"
+											},
+											"name": "Increased Dexterity",
+											"reference": "B15",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mcf6X6M05_FzvgDuq",
+													"name": "No Fine Manipulators",
+													"cost": -40,
+													"disabled": true
+												}
+											],
+											"points_per_level": 20,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "dx",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 3,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "t96gZ-kgbJ6XjLCBM",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "t1w1RFcFceKR2T9_e"
+											},
+											"name": "Increased Intelligence",
+											"reference": "B15",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Mental"
+											],
+											"points_per_level": 20,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "iq",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tx00N9D8irwoQo7NG",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tVt3SvdGWNchJ8z4o"
+											},
+											"name": "Increased Health",
+											"reference": "B14",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "ht",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tdqS48sx2NXABb5v6",
+											"name": "Increased Size Modifier",
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "sm",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tsSjMJnhzAIUwug1J",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tG2tK0QWXPQqFk-rd"
+											},
+											"name": "Enhanced Move (@type@)",
+											"reference": "B52,P49",
+											"notes": "Double your normal @type@ Move for each level",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"replacements": {
+												"type": "Ground"
+											},
+											"modifiers": [
+												{
+													"id": "mA4EMhfWU973DeMnv",
+													"name": "Handling Bonus",
+													"reference": "B52",
+													"cost": 5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mkwyrqyL-TQTpzGse",
+													"name": "Handling Penalty",
+													"reference": "B52",
+													"cost": -5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m-YifLqui7PSE32DO",
+													"name": "Newtonian",
+													"reference": "B52",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "m20BaukdSP3x0VxXN",
+													"name": "Road-Bound",
+													"reference": "B52",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mN-M_kUQ-wH-p0Heg",
+													"name": "All-Out",
+													"reference": "P49",
+													"cost": -20,
+													"disabled": true
+												},
+												{
+													"id": "mwHXSj2ZV05Vo_fE0",
+													"name": "Cosmic",
+													"reference": "SU26",
+													"notes": "Instantaneous Acceleration",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mqg0kV_QeEsUOZ3D3",
+													"name": "Cosmic",
+													"reference": "SU27",
+													"notes": "Complete Maneuverability",
+													"cost": 50,
+													"disabled": true
+												}
+											],
+											"points_per_level": 20,
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0,
+												"resolved_notes": "Double your normal Ground Move for each level"
+											}
+										},
+										{
+											"id": "tE9i4wvGv5LsNDcIL",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Powers\\Powers Traits.adq",
+												"id": "t3pZsR_Y-x-y6WeAO"
+											},
+											"name": "Injury Tolerance (Unbreakable Bones)",
+											"reference": "P53",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 10,
+											"calc": {
+												"points": 0
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "ThnfkrUDUMJtOoAjR",
+									"name": "Negative",
+									"children": [
+										{
+											"id": "ts6Ovibu4KKW4-Z7W",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tRhngvpgV84q6zY8n"
+											},
+											"name": "Disciplines of Faith (Asceticism)",
+											"reference": "B132",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -15,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "t5aqB7WlqOPb5WkH8",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "ttlpxHmhTlHZvLehl"
+											},
+											"name": "Clueless",
+											"reference": "B126",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -10,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "starts_with",
+														"qualifier": "savoir-faire"
+													},
+													"amount": -4
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from others aware of your clueless nature",
+													"amount": -2
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to resist Sex Appeal",
+													"amount": 4
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tL1GXyEeTxACBTJUT",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tNe543pbMl1IkZxSo"
+											},
+											"name": "Callous",
+											"reference": "B125",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -5,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "psychology"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "teaching"
+													},
+													"amount": -3
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from past victims and anyone with Empathy",
+													"amount": -1
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to Interrogation and Intimidation rolls when you use threats or torture",
+													"amount": 1
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tdKSquaGMXdKAKVeO",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "te50zSn72hOlD7bsp"
+											},
+											"name": "Killjoy",
+											"reference": "B140",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"base_points": -15,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "carousing"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "connoisseur"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "erotic art"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "gambling"
+													},
+													"amount": -3
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "(up to -3, at GM's discretion) from others in any situation where your lack of appreciation becomes obvious (GM’s decision)",
+													"amount": -1
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "twRII5kv3N3gJoz9A",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "t04cLZ44QvEYdsP3F"
+											},
+											"name": "Sense of Duty",
+											"reference": "B153",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mSNMidxCso2hsmnHg",
+													"name": "Friends and Companions",
+													"reference": "B153",
+													"cost": -5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mce0EcD-RnHhB2TT1",
+													"name": "@Small Group@",
+													"reference": "B153",
+													"cost": -5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m1VD4-8I8pBgrJ9TQ",
+													"name": "@Individual@",
+													"reference": "B153",
+													"cost": -2,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mU3HECIET60Zcmf7H",
+													"name": "@Large Group@",
+													"reference": "B153",
+													"replacements": {
+														"Large Group": "UEG-Aligned Humanity"
+													},
+													"cost": -10,
+													"cost_type": "points"
+												},
+												{
+													"id": "mkfnTacwm9NegSvax",
+													"name": "@Entire Race@",
+													"reference": "B153",
+													"replacements": {
+														"Entire Race": "Humanity"
+													},
+													"cost": -15,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mVEMjAdVgx9mldQwO",
+													"name": "Every Living Being",
+													"reference": "B153",
+													"cost": -20,
+													"cost_type": "points",
+													"disabled": true
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "thqD12njc7jLeEKI8",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tw81RysAzky-yjNYN"
+											},
+											"name": "Selfless",
+											"reference": "B153",
+											"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -5,
+											"calc": {
+												"points": 0
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "T5ay46hNpIiGgvCF6",
+							"name": "Spartan III",
+							"disabled": true,
+							"children": [
+								{
+									"id": "TUKTainan-lpNGnuB",
+									"name": "Positive",
+									"children": [
+										{
+											"id": "tAvBeBbTy6_UQ5XyM",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "teRggYn926_I1YeWO"
+											},
+											"name": "High Pain Threshold",
+											"reference": "B59",
+											"notes": "Never suffer shock penalties when injured",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 10,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "on all HT rolls to avoid knockdown and stunning",
+													"amount": 3
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to resist torture",
+													"amount": 3
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tjL8RKTA0td8-gne7",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tqha9GlDBU9P-Wg-6"
+											},
+											"name": "Increased Strength",
+											"reference": "B14",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mPtiQs2aURSAJBF_G",
+													"name": "No Fine Manipulators",
+													"reference": "B15",
+													"cost": -40,
+													"disabled": true
+												},
+												{
+													"id": "mUWDOp7twMosTOPpF",
+													"name": "Size",
+													"reference": "B15",
+													"cost": -10,
+													"levels": 1
+												},
+												{
+													"id": "m440QLL06MR1USMxJ",
+													"name": "Super-Effort",
+													"reference": "SU24",
+													"cost": 300,
+													"disabled": true
+												}
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "st",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 3,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tYZwGTOglJ2fZrWE_",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tGWOSEE6SmBHACE6Y"
+											},
+											"name": "Increased Dexterity",
+											"reference": "B15",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mZM_qyle66sv3uCxO",
+													"name": "No Fine Manipulators",
+													"cost": -40,
+													"disabled": true
+												}
+											],
+											"points_per_level": 20,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "dx",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "t5g4R2h_p1id_NQbl",
+											"name": "Increased Size Modifier",
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "sm",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tfaedA3qfq3lyupK4",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tG2tK0QWXPQqFk-rd"
+											},
+											"name": "Enhanced Move (@type@)",
+											"reference": "B52,P49",
+											"notes": "Double your normal @type@ Move for each level",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"replacements": {
+												"type": "Ground"
+											},
+											"modifiers": [
+												{
+													"id": "mGyAGIZlKC6cYn_Ld",
+													"name": "Handling Bonus",
+													"reference": "B52",
+													"cost": 5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mfpxgKhsS1_ERULBK",
+													"name": "Handling Penalty",
+													"reference": "B52",
+													"cost": -5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mtZywoKJH1nV1SKTC",
+													"name": "Newtonian",
+													"reference": "B52",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mGyPFlXDubZIliRNe",
+													"name": "Road-Bound",
+													"reference": "B52",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "m8sRSZ5rABanjcwYE",
+													"name": "All-Out",
+													"reference": "P49",
+													"cost": -20,
+													"disabled": true
+												},
+												{
+													"id": "mpFh72Zs2TUfLIUvl",
+													"name": "Cosmic",
+													"reference": "SU26",
+													"notes": "Instantaneous Acceleration",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "m4wJ4rAGVaADgMjL8",
+													"name": "Cosmic",
+													"reference": "SU27",
+													"notes": "Complete Maneuverability",
+													"cost": 50,
+													"disabled": true
+												}
+											],
+											"points_per_level": 20,
+											"can_level": true,
+											"levels": 0.5,
+											"calc": {
+												"points": 0,
+												"resolved_notes": "Double your normal Ground Move for each level"
+											}
+										},
+										{
+											"id": "tBhzE9Bv_CCeye6rN",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "txSLRSX9nxLwQkE2n"
+											},
+											"name": "Hard to Kill",
+											"reference": "B58",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"points_per_level": 2,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "twnkMylHxcIOEAq09",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "t5K9V7-_MYD_0BOQ8"
+											},
+											"name": "Hard to Subdue",
+											"reference": "B59",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"points_per_level": 2,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "to any HT roll to avoid unconsciousness",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 0
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "Tr2XGB3iPNrEnNPj-",
+									"name": "Negative",
+									"children": [
+										{
+											"id": "t-_xehn5QV16xSCfg",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tNe543pbMl1IkZxSo"
+											},
+											"name": "Callous",
+											"reference": "B125",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"base_points": -5,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "psychology"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "teaching"
+													},
+													"amount": -3
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from past victims and anyone with Empathy",
+													"amount": -1
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to Interrogation and Intimidation rolls when you use threats or torture",
+													"amount": 1
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tXdt3EUCC6xjDAVTa",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "te50zSn72hOlD7bsp"
+											},
+											"name": "Killjoy",
+											"reference": "B140",
+											"tags": [
+												"Disadvantage",
+												"Physical"
+											],
+											"base_points": -15,
+											"features": [
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "carousing"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "contains",
+														"qualifier": "connoisseur"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "erotic art"
+													},
+													"amount": -3
+												},
+												{
+													"type": "skill_bonus",
+													"selection_type": "skills_with_name",
+													"name": {
+														"compare": "is",
+														"qualifier": "gambling"
+													},
+													"amount": -3
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "(up to -3, at GM's discretion) from others in any situation where your lack of appreciation becomes obvious (GM’s decision)",
+													"amount": -1
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "to3qZITnPrQG8Hpz3",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "t04cLZ44QvEYdsP3F"
+											},
+											"name": "Sense of Duty",
+											"reference": "B153",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mO_NnoH-0d5bypiqc",
+													"name": "Friends and Companions",
+													"reference": "B153",
+													"cost": -5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mUGw-xCHmtvUOgqd1",
+													"name": "@Small Group@",
+													"reference": "B153",
+													"cost": -5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mxZLchhmfY4y8yhBg",
+													"name": "@Individual@",
+													"reference": "B153",
+													"cost": -2,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mp1LIX5783dm1a8XB",
+													"name": "@Large Group@",
+													"reference": "B153",
+													"replacements": {
+														"Large Group": "UEG-Aligned Humanity"
+													},
+													"cost": -10,
+													"cost_type": "points"
+												},
+												{
+													"id": "mztSJuC9pfiLG676m",
+													"name": "@Entire Race@",
+													"reference": "B153",
+													"replacements": {
+														"Entire Race": "Humanity"
+													},
+													"cost": -15,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mEmCmVmODYDXRPU18",
+													"name": "Every Living Being",
+													"reference": "B153",
+													"cost": -20,
+													"cost_type": "points",
+													"disabled": true
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tifWS6VMZcnDEMpZt",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tw81RysAzky-yjNYN"
+											},
+											"name": "Selfless",
+											"reference": "B153",
+											"notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -5,
+											"calc": {
+												"points": 0
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "T1k9Ji_1OLWYcz5Br",
+							"name": "Spartan IV",
+							"disabled": true,
+							"children": [
+								{
+									"id": "T5SMtr1WY80mY42JO",
+									"name": "Positive",
+									"children": [
+										{
+											"id": "tv9aVF-pt--RNdy1D",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "teRggYn926_I1YeWO"
+											},
+											"name": "High Pain Threshold",
+											"reference": "B59",
+											"notes": "Never suffer shock penalties when injured",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"base_points": 10,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "on all HT rolls to avoid knockdown and stunning",
+													"amount": 3
+												},
+												{
+													"type": "conditional_modifier",
+													"situation": "to resist torture",
+													"amount": 3
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "t_W9TL8W8i9HMmifB",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tqha9GlDBU9P-Wg-6"
+											},
+											"name": "Increased Strength",
+											"reference": "B14",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mle1cOC9MfbbaoPxY",
+													"name": "No Fine Manipulators",
+													"reference": "B15",
+													"cost": -40,
+													"disabled": true
+												},
+												{
+													"id": "mQhlJ2z1E1XQyKnCN",
+													"name": "Size",
+													"reference": "B15",
+													"cost": -10,
+													"levels": 1
+												},
+												{
+													"id": "mFSlXIRRHg9B8yzJC",
+													"name": "Super-Effort",
+													"reference": "SU24",
+													"cost": 300,
+													"disabled": true
+												}
+											],
+											"points_per_level": 10,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "st",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tvqgXNk6UTIRLLMKL",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tGWOSEE6SmBHACE6Y"
+											},
+											"name": "Increased Dexterity",
+											"reference": "B15",
+											"tags": [
+												"Advantage",
+												"Attribute",
+												"Physical"
+											],
+											"modifiers": [
+												{
+													"id": "mhgCfFA-HpeYrm_dC",
+													"name": "No Fine Manipulators",
+													"cost": -40,
+													"disabled": true
+												}
+											],
+											"points_per_level": 20,
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "dx",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 2,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tY7nhNBNirGNSso_f",
+											"name": "Increased Size Modifier",
+											"features": [
+												{
+													"type": "attribute_bonus",
+													"attribute": "sm",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "t5gmmzc76HJMCYx30",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "txSLRSX9nxLwQkE2n"
+											},
+											"name": "Hard to Kill",
+											"reference": "B58",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"points_per_level": 2,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tAs6FlJ-IB7tvdLf0",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "t5K9V7-_MYD_0BOQ8"
+											},
+											"name": "Hard to Subdue",
+											"reference": "B59",
+											"tags": [
+												"Advantage",
+												"Physical"
+											],
+											"points_per_level": 2,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "to any HT roll to avoid unconsciousness",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"can_level": true,
+											"levels": 1,
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tUuFBksDID8sQeW8n",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tG2tK0QWXPQqFk-rd"
+											},
+											"name": "Enhanced Move (@type@)",
+											"reference": "B52,P49",
+											"notes": "Double your normal @type@ Move for each level",
+											"tags": [
+												"Advantage",
+												"Exotic",
+												"Physical"
+											],
+											"replacements": {
+												"type": "Ground"
+											},
+											"modifiers": [
+												{
+													"id": "mCEWbomdxdW0pw_X7",
+													"name": "Handling Bonus",
+													"reference": "B52",
+													"cost": 5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "m_bs7Nmvy4PkmiXxY",
+													"name": "Handling Penalty",
+													"reference": "B52",
+													"cost": -5,
+													"levels": 1,
+													"disabled": true
+												},
+												{
+													"id": "mGCI910WQe8OOKq0g",
+													"name": "Newtonian",
+													"reference": "B52",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "maLNjwe0iYbueFxbu",
+													"name": "Road-Bound",
+													"reference": "B52",
+													"cost": -50,
+													"disabled": true
+												},
+												{
+													"id": "mllYrIRVh5qr5cK4a",
+													"name": "All-Out",
+													"reference": "P49",
+													"cost": -20,
+													"disabled": true
+												},
+												{
+													"id": "mcgHklW1Omnz5fIrA",
+													"name": "Cosmic",
+													"reference": "SU26",
+													"notes": "Instantaneous Acceleration",
+													"cost": 50,
+													"disabled": true
+												},
+												{
+													"id": "mRY3OeG-F_n_6YO3R",
+													"name": "Cosmic",
+													"reference": "SU27",
+													"notes": "Complete Maneuverability",
+													"cost": 50,
+													"disabled": true
+												}
+											],
+											"points_per_level": 20,
+											"can_level": true,
+											"levels": 0.5,
+											"calc": {
+												"points": 0,
+												"resolved_notes": "Double your normal Ground Move for each level"
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "TrD3iUXn1dqA-Eif3",
+									"name": "Negative",
+									"children": [
+										{
+											"id": "tXMsNf0jtrv4XV96M",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "t04cLZ44QvEYdsP3F"
+											},
+											"name": "Sense of Duty",
+											"reference": "B153",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"modifiers": [
+												{
+													"id": "mjbFtoXWv8A1Uso6W",
+													"name": "Friends and Companions",
+													"reference": "B153",
+													"cost": -5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "m2a5sOO26hDNImOe4",
+													"name": "@Small Group@",
+													"reference": "B153",
+													"cost": -5,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mg3ewyG3RoXgJjw-Y",
+													"name": "@Individual@",
+													"reference": "B153",
+													"cost": -2,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mehdOhN4cDqi_Vo7C",
+													"name": "@Large Group@",
+													"reference": "B153",
+													"replacements": {
+														"Large Group": "UEG-Aligned Humanity"
+													},
+													"cost": -10,
+													"cost_type": "points"
+												},
+												{
+													"id": "mx0ZjviUDHKVi9zDy",
+													"name": "@Entire Race@",
+													"reference": "B153",
+													"replacements": {
+														"Entire Race": "Humanity"
+													},
+													"cost": -15,
+													"cost_type": "points",
+													"disabled": true
+												},
+												{
+													"id": "mN0PtkRRUu1Lj4utG",
+													"name": "Every Living Being",
+													"reference": "B153",
+													"cost": -20,
+													"cost_type": "points",
+													"disabled": true
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										},
+										{
+											"id": "tmlp6vwO25wakl2Lo",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Basic Set\\Basic Set Traits.adq",
+												"id": "tPbL1_rekOzkM86wz"
+											},
+											"name": "Overconfidence",
+											"reference": "B148",
+											"notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+											"tags": [
+												"Disadvantage",
+												"Mental"
+											],
+											"cr": 12,
+											"base_points": -5,
+											"features": [
+												{
+													"type": "reaction_bonus",
+													"situation": "from young or naive individuals who believe you are as good as you say you are",
+													"amount": 2
+												},
+												{
+													"type": "reaction_bonus",
+													"situation": "from experienced NPCs",
+													"amount": -2
+												}
+											],
+											"calc": {
+												"points": 0
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "TRAaDr9La0h2GGBj-",
+					"name": "All Programs",
+					"children": [
+						{
+							"id": "T8cTIfALDhWiVhiw7",
+							"name": "Positive",
+							"children": [
+								{
+									"id": "tq7IXJ2JtOWSlJADO",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tGWOSEE6SmBHACE6Y"
+									},
+									"name": "Increased Dexterity",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mjxdGiV22AFG77LxQ",
+											"name": "No Fine Manipulators",
+											"cost": -40,
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "dx",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 2,
+									"calc": {
+										"points": 40
+									}
+								},
+								{
+									"id": "tvEdGGlTtzimMfjl9",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "t1w1RFcFceKR2T9_e"
+									},
+									"name": "Increased Intelligence",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "iq",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"id": "ta8v2GB8KP2CpEYtp",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tVt3SvdGWNchJ8z4o"
+									},
+									"name": "Increased Health",
+									"reference": "B14",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "ht",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 2,
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"id": "t3gqI7Fa-s2JqJnsP",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tGjjVtxav9KsrG7Wx"
+									},
+									"name": "Combat Reflexes",
+									"reference": "B43",
+									"notes": "Never freeze",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "trait_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "Enhanced Time Sense"
+												}
+											}
+										]
+									},
+									"base_points": 15,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "starts_with",
+												"qualifier": "fast-draw"
+											},
+											"amount": 1
+										},
+										{
+											"type": "attribute_bonus",
+											"attribute": "dodge",
+											"amount": 1
+										},
+										{
+											"type": "attribute_bonus",
+											"attribute": "parry",
+											"amount": 1
+										},
+										{
+											"type": "attribute_bonus",
+											"attribute": "block",
+											"amount": 1
+										},
+										{
+											"type": "attribute_bonus",
+											"attribute": "fright_check",
+											"amount": 2
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+											"amount": 6
+										},
+										{
+											"type": "conditional_modifier",
+											"situation": "to initiative rolls for your side (+2 if you are the leader)",
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 15
+									}
+								}
+							],
+							"calc": {
+								"points": 95
+							}
+						},
+						{
+							"id": "TuuPkXxqQPGxc1Exw",
+							"name": "Negative",
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 95
+					}
+				}
+			],
+			"calc": {
+				"points": 95
+			}
+		}
+	]
+}

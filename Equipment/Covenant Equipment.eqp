@@ -1,0 +1,224 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eezn5qZVug6DKc_Xs",
+			"description": "Eos'Mak-Pattern Plasma Pistol",
+			"notes": "Overheat (11)\nSee Equipment notes for Overcharged shot rules.",
+			"tech_level": "10^",
+			"legality_class": "3",
+			"tags": [
+				"Covenant",
+				"Firearm",
+				"Pistol",
+				"Plasma"
+			],
+			"weight": "7.7 lb",
+			"weapons": [
+				{
+					"id": "Wnol3EBapY0kscQos",
+					"damage": {
+						"type": "burn",
+						"base": "3d",
+						"armor_divisor": 4
+					},
+					"strength": "6",
+					"usage": "Standard",
+					"accuracy": "3",
+					"range": "120/360",
+					"rate_of_fire": "3",
+					"shots": "100(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"damage": "3d(4) burn"
+					}
+				},
+				{
+					"id": "W6LJi0dM_n-CZl7Gg",
+					"damage": {
+						"type": "burn",
+						"base": "4d",
+						"armor_divisor": 5
+					},
+					"strength": "6",
+					"usage": "Overcharged",
+					"accuracy": "4",
+					"range": "120/360",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"damage": "4d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "7.7 lb"
+			}
+		},
+		{
+			"id": "edS3K_qBnfTVVmnyQ",
+			"description": "Zo'Klada-Pattern Plasma Pistol",
+			"notes": "Overheat(11)\nComes with integrated smartlink scope\nSee Equipment notes for Overcharged shot rules.",
+			"tech_level": "10^",
+			"legality_class": "3",
+			"tags": [
+				"Covenant",
+				"Firearm",
+				"Pistol",
+				"Plasma"
+			],
+			"weight": "7.9 lb",
+			"weapons": [
+				{
+					"id": "WUxYO9VcOzYbU90az",
+					"damage": {
+						"type": "burn",
+						"base": "3d+1",
+						"armor_divisor": 4
+					},
+					"strength": "6",
+					"usage": "Standard",
+					"accuracy": "3+1",
+					"range": "120/360",
+					"rate_of_fire": "3",
+					"shots": "100(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"damage": "3d+1(4) burn"
+					}
+				},
+				{
+					"id": "W607EyMIEWjtu00iv",
+					"damage": {
+						"type": "burn",
+						"base": "5d+1",
+						"armor_divisor": 5
+					},
+					"strength": "6",
+					"usage": "Overcharged",
+					"accuracy": "4",
+					"range": "120/360",
+					"rate_of_fire": "1",
+					"bulk": "-2",
+					"recoil": "2",
+					"calc": {
+						"damage": "5d+1(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "7.9 lb"
+			}
+		},
+		{
+			"id": "eEEmH0NBYxOPs8Nt3",
+			"description": "Okarda'phaa-Pattern Plasma Rifle",
+			"notes": "Overheat (16)",
+			"tech_level": "10^",
+			"legality_class": "3",
+			"weight": "13 lb",
+			"weapons": [
+				{
+					"id": "WvBxQrCiQocRIk0xY",
+					"damage": {
+						"type": "burn",
+						"base": "5d",
+						"armor_divisor": 4
+					},
+					"strength": "6†",
+					"accuracy": "4+1",
+					"range": "390/1,170",
+					"rate_of_fire": "9!",
+					"shots": "100(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"calc": {
+						"damage": "5d(4) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "13 lb"
+			}
+		},
+		{
+			"id": "e55lLBC7iQhBsc7x6",
+			"description": "Kewu R'shi'k-Pattern Plasma Rifle",
+			"notes": "Overheat (13)",
+			"tech_level": "10^",
+			"legality_class": "3",
+			"weight": "13 lb",
+			"weapons": [
+				{
+					"id": "W8sXf14P1Ybpwcfnu",
+					"damage": {
+						"type": "burn",
+						"base": "4d+2",
+						"armor_divisor": 4
+					},
+					"strength": "6†",
+					"accuracy": "3",
+					"range": "390/1,170",
+					"rate_of_fire": "12!",
+					"shots": "100(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"calc": {
+						"damage": "4d+2(4) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "13 lb"
+			}
+		},
+		{
+			"id": "eqh-gKD6TFqjC0oDK",
+			"description": "Paegaas-Pattern Spiker",
+			"tech_level": "10^",
+			"legality_class": "2",
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "WnT8sc3zcErYHRnMY",
+					"damage": {
+						"type": "pi++",
+						"base": "5d+1",
+						"armor_divisor": 3
+					},
+					"strength": "7†",
+					"accuracy": "4",
+					"range": "375/1,125",
+					"rate_of_fire": "8!",
+					"shots": "40(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"calc": {
+						"damage": "5d+1(3) pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "15 lb"
+			}
+		}
+	]
+}

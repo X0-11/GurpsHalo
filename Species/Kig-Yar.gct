@@ -1,0 +1,1465 @@
+{
+	"version": 5,
+	"id": "B0RNz5Yx_WN9rlCf2",
+	"traits": [
+		{
+			"id": "T7YbOyCUByB39PrI3",
+			"name": "Kig-Yar Racial Traits",
+			"children": [
+				{
+					"id": "TKH88vpZc3GxxkLCJ",
+					"name": "Subspecies (Pick One)",
+					"children": [
+						{
+							"id": "TkKjIBrKHwN4piMhF",
+							"name": "T'vaoan",
+							"disabled": true,
+							"children": [
+								{
+									"id": "tjHGNEaCeSmC-hi8P",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tWF1J_Z0Ziz-qJ6pn"
+									},
+									"name": "Increased Basic Speed",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_speed",
+											"amount": 0.25,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 2,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tF-i6CNqOXU-SbPaG",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tCgsJ0W9A8mHTtc-e"
+									},
+									"name": "Increased Basic Move",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_move",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "ttK78UAoZXbiVvEBA",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tejp-a5e9aT3X-4i0"
+									},
+									"name": "Super Jump",
+									"reference": "B89,P79",
+									"notes": "@New Move and Jump Stats@",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"replacements": {
+										"New Move and Jump Stats": "New Move and Jump Stats"
+									},
+									"modifiers": [
+										{
+											"id": "mJ7k-tVAaQsA0cJ3V",
+											"name": "Bouncing",
+											"reference": "P80",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "mflGdiTJoTRirVss8",
+											"name": "Maneuverable",
+											"reference": "P80",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "mUuUQJc_DJ76C1JT-",
+											"name": "Full Power Only",
+											"reference": "P80",
+											"cost": -10,
+											"disabled": true
+										},
+										{
+											"id": "mfREFAWFF3e6CONIO",
+											"name": "Horizontal Only",
+											"reference": "P80",
+											"cost": -25,
+											"disabled": true
+										},
+										{
+											"id": "mRC65b0umy_UtTSz7",
+											"name": "Lighter Than Air",
+											"reference": "P80",
+											"cost": -10,
+											"disabled": true
+										},
+										{
+											"id": "mvxmjvea0DhDiiabn",
+											"name": "Planetary",
+											"reference": "P80",
+											"cost": -5,
+											"disabled": true
+										},
+										{
+											"id": "mdnq4SXOEsV0pVFWq",
+											"name": "Projectile",
+											"reference": "P80",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "mSutCtSr-sMFJWivj",
+											"name": "Vertical Only",
+											"reference": "P80",
+											"cost": -25,
+											"disabled": true
+										},
+										{
+											"id": "mZghR8Zz_EzE_jyiA",
+											"name": "Bouncing Only",
+											"reference": "SU28",
+											"cost": -50,
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 0,
+										"resolved_notes": "New Move and Jump Stats"
+									}
+								},
+								{
+									"id": "tlIboSsy3F83Pc0m8",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "ttHkLI9zwzfeOIEZc"
+									},
+									"name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)",
+									"reference": "B140",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"replacements": {
+										"Class, Ethnicity, Nationality, Religion, Sex, or Species": "Non-T'vaoan Kig-Yar"
+									},
+									"modifiers": [
+										{
+											"id": "moQtnWdnJjvLPnK3l",
+											"name": "Scope: Common",
+											"reference": "B140",
+											"cost": -5,
+											"cost_type": "points"
+										},
+										{
+											"id": "mfko9Wqx3PHebGitm",
+											"name": "Scope: Occasional",
+											"reference": "B140",
+											"cost": -2,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "mxO2OpfcGuWwAWnGP",
+											"name": "Scope: Rare",
+											"reference": "B140",
+											"cost": -1,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "mbGAdnJj_TtpS8-PU",
+											"name": "Scope: Anyone unlike you",
+											"reference": "B140",
+											"cost": -10,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)",
+											"amount": -1
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "t3gUpq2cTOC3NlywO",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups Traits.adq",
+										"id": "tFfuTWaQU32nGnZwR"
+									},
+									"name": "Feathers",
+									"reference": "PU2:10",
+									"tags": [
+										"Exotic",
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tyjYb_FUKpA7mn3pP",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tG2tK0QWXPQqFk-rd"
+									},
+									"name": "Enhanced Move (@type@)",
+									"reference": "B52,P49",
+									"notes": "Double your normal @type@ Move for each level",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"replacements": {
+										"type": "Ground"
+									},
+									"modifiers": [
+										{
+											"id": "m39luqOTx68ncoCJW",
+											"name": "Handling Bonus",
+											"reference": "B52",
+											"cost": 5,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "mduW8P-hw1y0AePlj",
+											"name": "Handling Penalty",
+											"reference": "B52",
+											"cost": -5,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "mp6xVpTWl0LoKV4-U",
+											"name": "Newtonian",
+											"reference": "B52",
+											"cost": -50,
+											"disabled": true
+										},
+										{
+											"id": "m7USMuvl0ItGjMDga",
+											"name": "Road-Bound",
+											"reference": "B52",
+											"cost": -50,
+											"disabled": true
+										},
+										{
+											"id": "mqKhIpxgzqQGRHu-l",
+											"name": "All-Out",
+											"reference": "P49",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "mbJLaC6GMCQiAhFkd",
+											"name": "Cosmic",
+											"reference": "SU26",
+											"notes": "Instantaneous Acceleration",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "mwZmz0eVDSDH7bKZu",
+											"name": "Cosmic",
+											"reference": "SU27",
+											"notes": "Complete Maneuverability",
+											"cost": 50,
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"can_level": true,
+									"levels": 0.5,
+									"calc": {
+										"points": 0,
+										"resolved_notes": "Double your normal Ground Move for each level"
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "TBVNrKWWH2_KLc_P1",
+							"name": "Ruuhtian",
+							"disabled": true,
+							"children": [
+								{
+									"id": "tyxRmOsZk74_D-GoK",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "t8HajX_K4BDKPuUop"
+									},
+									"name": "Striking ST",
+									"reference": "B88,P78",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mY-qkqtbIA1eN5DR-",
+											"name": "No Fine Manipulators",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "mXttzQWZFda4LnkWf",
+											"name": "Size",
+											"cost": -10,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "m9GpCTmuMNvj_s-aM",
+											"name": "Super Effort",
+											"reference": "SU24",
+											"cost": 400,
+											"disabled": true
+										},
+										{
+											"id": "m3HRtfTl14av7hAL7",
+											"name": "One Attack Only",
+											"reference": "P79",
+											"notes": "@Attack@",
+											"replacements": {
+												"Attack": "Bite"
+											},
+											"cost": -60,
+											"calc": {
+												"resolved_notes": "Bite"
+											}
+										},
+										{
+											"id": "mKFNALBjN41nWZjHj",
+											"name": "Know Your Own Strength Pricing Variant",
+											"reference": "PY83:18",
+											"cost": -4,
+											"cost_type": "points",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "weapon_bonus",
+											"selection_type": "weapons_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Sharp Teeth"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 1,
+											"leveled": true
+										},
+										{
+											"type": "weapon_bonus",
+											"selection_type": "weapons_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Natural Attacks"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Bite"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 1,
+											"leveled": true
+										}
+									],
+									"can_level": true,
+									"levels": 2,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tZ0eIt8yzERab63Fb",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tPa2RCbNO28twKcsw"
+									},
+									"name": "Short Spines",
+									"reference": "B88",
+									"tags": [
+										"Exotic",
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"weapons": [
+										{
+											"id": "wyN2wk54qOo-GO8JM",
+											"damage": {
+												"type": "imp",
+												"base": "1d-2"
+											},
+											"usage": "Stab",
+											"reach": "C",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"damage": "1d-2 imp"
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tqSssKOBOHiXyHQqw",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tkdGzhkqoMAQbknEc"
+									},
+									"name": "Acute Vision",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "vision",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 3,
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "TZ07kVSiLd1Sn0xJU",
+							"name": "Ibie'shan",
+							"disabled": true,
+							"children": [
+								{
+									"id": "tKEZ0fO9M2rhb6s93",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "t8HajX_K4BDKPuUop"
+									},
+									"name": "Striking ST",
+									"reference": "B88,P78",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mCOXEA6IjzH2gC6sY",
+											"name": "No Fine Manipulators",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "mhlC02VddPa8Dk6mi",
+											"name": "Size",
+											"cost": -10,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "mEZutn7VbuSJ6O42x",
+											"name": "Super Effort",
+											"reference": "SU24",
+											"cost": 400,
+											"disabled": true
+										},
+										{
+											"id": "molKsG0SIMlHx0wDm",
+											"name": "One Attack Only",
+											"reference": "P79",
+											"notes": "@Attack@",
+											"replacements": {
+												"Attack": "Bite"
+											},
+											"cost": -60,
+											"calc": {
+												"resolved_notes": "Bite"
+											}
+										},
+										{
+											"id": "m_mGs2Wc45t4dOT3Z",
+											"name": "Know Your Own Strength Pricing Variant",
+											"reference": "PY83:18",
+											"cost": -4,
+											"cost_type": "points",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "weapon_bonus",
+											"selection_type": "weapons_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Sharp Teeth"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 1,
+											"leveled": true
+										},
+										{
+											"type": "weapon_bonus",
+											"selection_type": "weapons_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Natural Attacks"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Bite"
+											},
+											"level": {
+												"compare": "at_least"
+											},
+											"amount": 1,
+											"leveled": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "t-8lOmNWVxKeCMLna",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups Traits.adq",
+										"id": "tAUJQw0dZLZnW9YMh"
+									},
+									"name": "Scales",
+									"reference": "PU2:12",
+									"tags": [
+										"Exotic",
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tHgsWEBaULcECATT4",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tBmSJ3pNE53c4IRUU"
+									},
+									"name": "Damage Resistance",
+									"reference": "B47,P45,MA43,PSI14",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "miHIb6kxZ37lECQzC",
+											"name": "Force Field",
+											"reference": "B47",
+											"cost": 20,
+											"disabled": true
+										},
+										{
+											"id": "mU4DlEqh5NPhlZjQY",
+											"name": "Hardened",
+											"reference": "B47",
+											"cost": 20,
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "m4JXAyE4piPlA5jDT",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Enhances @Trait@",
+											"cost": 80,
+											"disabled": true
+										},
+										{
+											"id": "mgflnkJ2lsN_LR_Gw",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Healing only",
+											"cost": 80,
+											"disabled": true
+										},
+										{
+											"id": "mC-MXyTnPt8bPKvkg",
+											"name": "Absorption",
+											"reference": "B46",
+											"notes": "Enhances any trait",
+											"cost": 100,
+											"disabled": true
+										},
+										{
+											"id": "mjsiQA_8Y_w3rH0lZ",
+											"name": "Reflection",
+											"reference": "B47",
+											"cost": 100,
+											"disabled": true
+										},
+										{
+											"id": "m5UxEHr1BDqxdrUgn",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Rare@",
+											"cost": -1,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "m1o2CgdDcqRugxQcF",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Occasional@",
+											"cost": -5,
+											"disabled": true
+										},
+										{
+											"id": "m6BmE5uLukIrgA--Q",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Common@",
+											"cost": -10,
+											"disabled": true
+										},
+										{
+											"id": "mvCTwEmT5r89Bi13U",
+											"name": "Bane",
+											"reference": "H14",
+											"notes": "@Very Common@",
+											"cost": -15,
+											"disabled": true
+										},
+										{
+											"id": "m5FcLvH1UQNpcM9qB",
+											"name": "Directional",
+											"reference": "B47",
+											"notes": "Front",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "myfEKlyqL0Nb-GIyg",
+											"name": "Flexible",
+											"reference": "B47",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "mkQgGYv822fWIuLe7",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Very Common Attack Form@",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "m3vZd0ufFIIu3CxJq",
+											"name": "Semi-Ablative",
+											"reference": "B47",
+											"cost": -20,
+											"disabled": true
+										},
+										{
+											"id": "muRfrSBTflbzLn1F3",
+											"name": "Can't wear armor",
+											"reference": "B47",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "mCbzi1aYpCakm0BUB",
+											"name": "Directional",
+											"reference": "B47",
+											"notes": "@Direction: Back, Right, Left, Top or Underside@",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "mgecoiUBUGkp3tAee",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Common Attack Form@",
+											"cost": -40,
+											"disabled": true
+										},
+										{
+											"id": "mTQW9j4IVb8oIriaa",
+											"name": "Tough Skin",
+											"notes": "Effects that just require skin contact or a scratch ignore this DR",
+											"cost": -40
+										},
+										{
+											"id": "mqjV1Jn7-E25ZipgO",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Occasional Attack Form@",
+											"cost": -60,
+											"disabled": true
+										},
+										{
+											"id": "mvvDwvmAuw7BpHlx1",
+											"name": "Ablative",
+											"reference": "B47",
+											"cost": -80,
+											"disabled": true
+										},
+										{
+											"id": "mv8L1aVxoWYs48_ZT",
+											"name": "Limited",
+											"reference": "B46",
+											"notes": "@Rare Attack Form@",
+											"cost": -80,
+											"disabled": true
+										},
+										{
+											"id": "mSPGtvDIZH4Q1gILg",
+											"name": "Laminate",
+											"reference": "RSWL18",
+											"cost": 10,
+											"disabled": true
+										},
+										{
+											"id": "mLX5r4wRTYs46LSp-",
+											"name": "Malediction-Proof",
+											"reference": "PSI14",
+											"cost": 50,
+											"disabled": true
+										},
+										{
+											"id": "mCeYLqkMH4nvc5kYU",
+											"name": "Maledictions Only",
+											"reference": "PSI14",
+											"disabled": true
+										},
+										{
+											"id": "mafmzwWecDcC7HOCM",
+											"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+											"reference": "B47",
+											"cost": -10,
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"all"
+											],
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"eye"
+											],
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 2,
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tQCqh5V3jYlc8Q77v",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tSMpMD1qKP-y2byEF"
+									},
+									"name": "Long Spines",
+									"reference": "B88",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"base_points": 3,
+									"weapons": [
+										{
+											"id": "wYzPhkFBd5ZuTB0cc",
+											"damage": {
+												"type": "imp",
+												"base": "1d"
+											},
+											"usage": "Stab",
+											"reach": "C",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"damage": "1d imp"
+											}
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						}
+					],
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"id": "TzoyJ5Z5zxo_4SpWj",
+					"name": "All Subspecies",
+					"children": [
+						{
+							"id": "TavOFWHw3sTfO6oi4",
+							"name": "Positive",
+							"children": [
+								{
+									"id": "t0zprKNQqC4GBebKm",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tCgsJ0W9A8mHTtc-e"
+									},
+									"name": "Increased Basic Move",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_move",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "toD8sArDF8hC49_zV",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tGWOSEE6SmBHACE6Y"
+									},
+									"name": "Increased Dexterity",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mWvhncrMlCez_hVmC",
+											"name": "No Fine Manipulators",
+											"cost": -40,
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "dx",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20
+									}
+								},
+								{
+									"id": "tUh3-bPaIoYd7dZu_",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tK9Ov0WtlrhnJFy5n"
+									},
+									"name": "Sharp Teeth",
+									"reference": "B91",
+									"tags": [
+										"Exotic",
+										"Perk",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mT9N1KtoHX1OFUvgC",
+											"name": "Provided by Vampiric Bite",
+											"reference": "B96",
+											"cost": -1,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"base_points": 1,
+									"weapons": [
+										{
+											"id": "wtfZue2rqIJg2jLyB",
+											"damage": {
+												"type": "cut",
+												"st": "thr",
+												"base": "-1"
+											},
+											"usage": "Bite",
+											"reach": "C",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Brawling"
+												},
+												{
+													"type": "dx"
+												}
+											],
+											"calc": {
+												"damage": "thr-1 cut"
+											}
+										}
+									],
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "tP4Xwd6MxDbo4VqZc",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tj66NHKyO_GObgGsj"
+									},
+									"name": "Sharp Claws",
+									"reference": "B42",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"base_points": 5,
+									"weapons": [
+										{
+											"id": "wVcZSlHf7zKuOZwAv",
+											"damage": {
+												"type": "cut",
+												"st": "thr",
+												"base": "-1"
+											},
+											"usage": "Slash",
+											"reach": "C",
+											"parry": "0",
+											"defaults": [
+												{
+													"type": "dx"
+												},
+												{
+													"type": "skill",
+													"name": "Brawling"
+												},
+												{
+													"type": "skill",
+													"name": "Boxing"
+												},
+												{
+													"type": "skill",
+													"name": "Karate"
+												}
+											],
+											"calc": {
+												"damage": "thr-1 cut"
+											}
+										},
+										{
+											"id": "wa3aw0Ca5aIOvOYAv",
+											"damage": {
+												"type": "cut",
+												"st": "thr"
+											},
+											"usage": "Kick",
+											"reach": "C,1",
+											"defaults": [
+												{
+													"type": "dx",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Karate",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Brawling",
+													"modifier": -2
+												}
+											],
+											"calc": {
+												"damage": "thr cut"
+											}
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tT6b2CR917juKnJ8h",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tWNGzCluuu3S1L8jv"
+									},
+									"name": "Nictitating Membrane",
+									"reference": "B71",
+									"tags": [
+										"Advantage",
+										"Exotic",
+										"Physical"
+									],
+									"points_per_level": 1,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to all HT rolls concerned with eye damage",
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"eye"
+											],
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 1
+									}
+								},
+								{
+									"id": "tUKnv7Cz_kiZZqfKT",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tWF1J_Z0Ziz-qJ6pn"
+									},
+									"name": "Increased Basic Speed",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_speed",
+											"amount": 0.25,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 2,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "tHPPqJf5aR1UVprfD",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tsIfS0jZqdshsDFOM"
+									},
+									"name": "Extra Fatigue Points",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 3,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "fp",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 3
+									}
+								},
+								{
+									"id": "t8piP7lQTPC6LRKpa",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tE_Ykx9nKvsgBGb6L"
+									},
+									"name": "Ambidexterity",
+									"reference": "B39",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"base_points": 5,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "t2vDNceHHCC78pYda",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tAZ31tXG_HzDmVCRp"
+									},
+									"name": "Acute Taste \u0026 Smell",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "taste_smell",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2
+									}
+								},
+								{
+									"id": "t2xjIqETYiYxhek8c",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "t6XtSYhM7yan5_B73"
+									},
+									"name": "Acute Hearing",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "hearing",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2
+									}
+								}
+							],
+							"calc": {
+								"points": 54
+							}
+						},
+						{
+							"id": "T4ER7LHSsyDe4YsI4",
+							"name": "Negative",
+							"children": [
+								{
+									"id": "tk8DBhvuq5EHXPXHy",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "ttHkLI9zwzfeOIEZc"
+									},
+									"name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)",
+									"reference": "B140",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"replacements": {
+										"Class, Ethnicity, Nationality, Religion, Sex, or Species": "Unggoy"
+									},
+									"modifiers": [
+										{
+											"id": "m8ohP5JUUqasjx_sW",
+											"name": "Scope: Common",
+											"reference": "B140",
+											"cost": -5,
+											"cost_type": "points"
+										},
+										{
+											"id": "mEQ-aaTg_gy-jHpLN",
+											"name": "Scope: Occasional",
+											"reference": "B140",
+											"cost": -2,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "m9SOw9VhmOIWuUCFh",
+											"name": "Scope: Rare",
+											"reference": "B140",
+											"cost": -1,
+											"cost_type": "points",
+											"disabled": true
+										},
+										{
+											"id": "mkN8kqLxlzB-ByQGd",
+											"name": "Scope: Anyone unlike you",
+											"reference": "B140",
+											"cost": -10,
+											"cost_type": "points",
+											"disabled": true
+										}
+									],
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)",
+											"amount": -1
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								},
+								{
+									"id": "tn6Ts81TXaKxD1wJ3",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "tMrRhiOyGg6WNz09k"
+									},
+									"name": "Bully",
+									"reference": "B125",
+									"tags": [
+										"Disadvantage",
+										"Mental"
+									],
+									"cr": 12,
+									"base_points": -10,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from others",
+											"amount": -2
+										}
+									],
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "t_ZRc1JpqsrR8ZWlw",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups Traits.adq",
+										"id": "tSjdQMEUtkL1glKmw"
+									},
+									"name": "Loud Voice",
+									"reference": "PU6:16",
+									"tags": [
+										"Mental",
+										"Quirk",
+										"Social"
+									],
+									"base_points": -1,
+									"calc": {
+										"points": -1
+									}
+								},
+								{
+									"id": "tHQ0tARIU6RFAy-36",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "trvn9KmEPe9qGbSdZ"
+									},
+									"name": "Decreased Health",
+									"reference": "B14",
+									"tags": [
+										"Attribute",
+										"Disadvantage",
+										"Physical"
+									],
+									"points_per_level": -10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "ht",
+											"amount": -1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": -10
+									}
+								},
+								{
+									"id": "tQKBhwSSGB6AS_AmQ",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set\\Basic Set Traits.adq",
+										"id": "ttwfuD5y7jvTNPd7f"
+									},
+									"name": "Bad Smell",
+									"reference": "B124",
+									"notes": "(Custom. Half effect of original, but half point gain.)",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"base_points": -5,
+									"features": [
+										{
+											"type": "reaction_bonus",
+											"situation": "from most people and animals (although pests or carrion-eating scavengers might be attracted to you!)",
+											"amount": -2
+										}
+									],
+									"calc": {
+										"points": -5
+									}
+								}
+							],
+							"calc": {
+								"points": -31
+							}
+						}
+					],
+					"calc": {
+						"points": 23
+					}
+				}
+			],
+			"calc": {
+				"points": 23
+			}
+		}
+	]
+}
